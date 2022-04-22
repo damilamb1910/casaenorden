@@ -21,16 +21,17 @@
     <meta property="twitter:url" content="">
     <link rel="icon" href="../images/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <div class="grid__container">
 
     <header>
         <a  href="index.html"><img class="logo" src="images/logo.png" alt="casa en orden"></a>
-        
         <nav class="nav__header">
             <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
@@ -56,9 +57,9 @@
 
     <section class="contenedor__carrousel"> <!--este carrousel tendrá una animación automatica, aún no se realizarla con css solamente-->
         <ul class="carrousel">
-            <li class="carrousel__slides carrousel__slides--background1" id="slide1">
+            <li class="carrousel__slides carrousel__slides--background1 animate__pulse" id="slide1">
             <a href="pages/electricidad.html"><h2 class="carrousel__titulo">Electricidad</h2></a>
-            <a target="blank" href="https://api.whatsapp.com/send?phone=5491162423915&text=%20"><button class="carrousel__boton">Pedir presupuesto </button></a></li>
+            <a target="blank" href="https://api.whatsapp.com/send?phone=5491162423915&text=%20"><button class="carrousel__boton ">Pedir presupuesto </button></a></li>
 
             <li class="carrousel__slides carrousel__slides--background2" id="slide2">
             <a href="pages/plomeria.html"><h2 class="carrousel__titulo">Plomería</h2></a>
@@ -162,7 +163,6 @@
         </div>
         <h4 class="footer__texto">Casa en orden® - Buenos Aires, Argentina. Todos los derechos reservados.</h4>
     </footer>
-
     </div>
 </body>
 </html>

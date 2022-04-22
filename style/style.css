@@ -702,9 +702,9 @@ text-transform: uppercase;
     }
     .grid__container__somos{
         grid-template-areas:"header "
-            "somos"
-            "recomendaciones "
-            "footer ";
+        "somos"
+        "recomendaciones "
+        "footer ";
         grid-template-rows: 50px 550px 1fr 230px;
         grid-template-columns: 100%;
     }

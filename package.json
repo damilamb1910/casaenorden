@@ -1,0 +1,26 @@
+{
+  "name": "casaenorden",
+  "version": "1.0.0",
+  "description": "<img src=images/quienes_somos_back.png height=200px >",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damilamb1910/casaenorden.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damilamb1910/casaenorden/issues"
+  },
+  "homepage": "https://github.com/damilamb1910/casaenorden#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

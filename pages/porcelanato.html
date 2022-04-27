@@ -21,34 +21,44 @@
     <meta property="twitter:url" content="">
     <link rel="icon" href="../images/casa en orden -logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-    <div class="grid__container__servicios">
-    <header>
-        <a  href="../index.html"><img class="logo" src="../images/logo.png" alt="casa en orden"></a>
-        <nav class="nav__header">
-            <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <img class="menu__boton" src="../images/boton_menu.png" alt="">
-        </label>
-            <ul class="menu" >
-                <li class="menu__items--hover"><a href="pagesomos.html">¿Quienes somos?</a></li>
-                <li class="item" >  <a href="">Servicios</a>
-                    <ul class="submenu"> 
-                    <li><a href="electricidad.html">Electricidad</a></li>
-                    <li><a href="plomeria.html">Plomería</a></li>
-                    <li><a href="gas.html">Gas</a></li>
-                    <li><a href="pintura.html">Pintura y revestimiento</a></li>
-                    <li><a href="hidrolavados.html">Hidrolavados</a></li>
-                    <li><a href="porcelanato.html">Porcelanto líquido</a></li>
-                    <li><a href="reparacion.html">Reparación de electrodomésticos</a></li>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"><img class="navbar-brand" src="../images/logo.png" alt="" width="40" ></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto ">
+                      <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="../pages/pagesomos.html">¿Quienes somos?</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="../pages/electricidad.html">Electricidad</a></li>
+                         <li><a class="dropdown-item" href="../pages/plomeria.html">Plomería</a></li>
+                         <li><a class="dropdown-item" href="../pages/gas.html">Gas</a></li>
+                         <li><a class="dropdown-item" href="../pages/pintura.html">Pintura y revestimiento</a></li>
+                         <li><a class="dropdown-item" href="../pages/hidrolavados.html">Hidrolavados</a></li>
+                         <li><a class="dropdown-item" href="../pages/porcelanato.html">Porcelanto líquido</a></li>
+                         <li><a class="dropdown-item" href="../pages/reparacion.html">Reparación de electrodomésticos</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/pagecontacto.html">Contacto</a>
+                      </li>
                     </ul>
-                </li>
-                <li class="menu__items--hover"> <a href="pagecontacto.html">Contacto</a> </li>
-            </ul>
-        </nav>
-    </header>
+                  </div>
+                </div>
+              </nav>
+        </header>
 
 
     <section class="landing landing__porcelanato--background">
@@ -60,38 +70,56 @@
     </section>
 
     <section class="recomendaciones">
-        <h2 class="recomendaciones__titulo">Nuestros clientes nos recomiendan</h2>
-    <div class="cardcontenedor">
-        <div class="card">
-                <img class="card__image" src="../images/profile2.png" alt="profilephoto">
-                <h3 class="card__titulo">Carlos Gonzalez</h3>
-                <p class="card__parrafo">Tenía incovenientes con la pileta de la cocina y llame a los chicos de Casa en orden, en solo dos horas me solucionaron el problema</p>
+        <div class="">
+            <h2 class="recomendaciones__titulo wow animate__animated animate__backInUp ">Nuestros clientes nos recomiendan</h2>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-xl-5 g-4 container mx-auto">
+            <div class="col">
+              <div class="card h-100">
+                <img src="../images/profile2.png" class="card__image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Carlos Gonzalez</h5>
+                  <p class="card-text">Tenía incovenientes con la pileta de la cocina y llame a los chicos de Casa en orden, en solo dos horas me solucionaron el problema.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../images/profile1.png" class="card__image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maria Gamarra</h5>
+                  <p class="card-text">Siempre quise solucionar el problema de humedad de mi habitación pero nadie le daba en clavo. Hasta que llame a Casa en orden y desde hace 6 meses ya que no veo ninguna mancha en las paredes, ¡estoy muy feliz!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../images/profile4.png" class="card__image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Agustín Rodriguez</h5>
+                  <p class="card-text">Me cansé de renegar con los enchufes de la casa, por eso me contacté con Casa en orden y me dieron una solución que si sabia los llamaba antes, fue algo sencillo pero me habia re quedado en solucionarlo. En fin, ¡unos genios!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="../images/profile3.png" class="card__image" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">María Sandéz</h5>
+                    <p class="card-text">Estaba aburrida de tener siempre el mismo piso y no se me ocurria nada lindo. En Casa en orden me comentaron acerca del porcelanato líquido y cuando me hicieron el trabajo, ¡no pude creer lo lindo que quedó! Super recomendable.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="../images/profile5.png" class="card__image" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cristina Vergara</h5>
+                    <p class="card-text">Llamé a Casa en orden por que se me habia roto el celular y lo necesitaba con urgencia por el trabajo. Lo repararon y quedó funcionando excelente.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
-
-        <div class="card">
-                <img class="card__image" src="../images/profile1.png" alt="profilephoto">
-                <h3 class="card__titulo">Maria Gamarra</h3>
-                <p class="card__parrafo">Siempre quise solucionar el problema de humedad de mi habitación pero nadie le daba en clavo. Hasta que llame a Casa en orden y desde hace 6 meses ya que no veo ninguna mancha en las paredes, ¡estoy muy feliz! </p>
-                    </div>
-
-        <div class="card">
-                <img class="card__image" src="../images/profile4.png" alt="profilephoto">
-                <h3 class="card__titulo">Agustín Rodriguez</h3>
-                <p class="card__parrafo">Me cansé de renegar con los enchufes de la casa, por eso me contacté con Casa en orden y me dieron una solución que si sabia los llamaba antes, fue algo sencillo pero me habia re quedado en solucionarlo. En fin, ¡unos genios!</p>
-        </div>
-
-        <div class="card">
-            <img class="card__image" src="../images/profile3.png" alt="profilephoto">
-            <h3 class="card__titulo">María Sandéz</h3>
-            <p class="card__parrafo">Estaba aburrida de tener siempre el mismo piso y no se me ocurria nada lindo. En Casa en orden me comentaron acerca del porcelanato líquido y cuando me hicieron el trabajo, ¡no pude creer lo lindo que quedó! Super recomendable.</p>
-        </div>
-
-        <div class="card">
-            <img class="card__image" src="../images/profile5.png" alt="profilephoto">
-            <h3 class="card__titulo">Cristina Vergara</h3>
-            <p class="card__parrafo">Llamé a Casa en orden por que se me habia roto el celular y lo necesitaba con urgencia por el trabajo. Lo repararon y quedó funcionando excelente.</p>
-        </div>
-    </div>
     <a target="blank" href="https://api.whatsapp.com/send?phone=5491162423915&text=%20"><button class="card__boton">Pedir presupuesto </button></a>
     </section>
 
@@ -120,6 +148,6 @@
         </div>
         <h4 class="footer__texto">Casa en orden® - Buenos Aires, Argentina. Todos los derechos reservados.</h4>
     </footer>
-</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

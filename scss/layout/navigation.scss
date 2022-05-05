@@ -1,0 +1,14 @@
+.navbar{
+    background-color: $colorAzul !important;
+    .nav-item{
+        margin-right: 30px;
+        }
+    .logo{
+        height:40px;
+        padding-left: 20px;
+        padding-top: 10px;
+        @media screen and (max-width:480px) {
+            height: 25px;
+        }
+        }
+    }

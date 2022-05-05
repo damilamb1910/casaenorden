@@ -1,0 +1,26 @@
+.landing__contacto{
+    background-image: url(../images/contacto_back.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 95vh;
+    @media screen and (max-width:1024px) {
+        background-image: none;
+        background-color: white;
+        justify-content: space-evenly;
+    }
+    @media screen and (max-width:480px) {
+        height:150vh ;
+    }
+    .contacto__boton{
+        width: 100px;
+        
+    }
+}

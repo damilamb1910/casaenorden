@@ -1,0 +1,22 @@
+.carrousel__boton, .card__boton, .landing__boton, .contacto__presupuesto{
+    margin-top: 50px;
+    height: 65px;
+    width: 500px;
+    background-color: #F2B90C;
+    border-radius: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    @media screen and (max-width:1024px){
+        margin-top: 0px;
+        width: 200px;
+        height: 50px;
+    }
+    @media screen and (max-width:480px){
+        margin-top: 0px;
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+    }
+    }
+
+    

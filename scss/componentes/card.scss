@@ -1,0 +1,14 @@
+.card{
+    align-items: center;
+    text-align: center;
+    @media screen and (max-width:1024px) {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .card__image{
+        height: 150px;
+        width: 150px;
+        padding-top: 10px;
+        
+        }
+}

@@ -37,10 +37,6 @@ ul{
     list-style: none;
 }
 
-.nav__header{
-background-color: #8FAFD9 !important;
-}
-
 .item:hover .submenu{
 display: flex;
 flex-direction: column;
@@ -84,29 +80,6 @@ font-size: 20px;
 text-transform: uppercase;
 }
 
-
-.section__somos{
-    grid-area: somos;
-}
-.grid__container__somos{
-    display: grid;
-    grid-template-areas:"header "
-    "somos "
-    "recomendaciones "
-    "footer ";
-    grid-template-rows: 70px 1fr 1fr 450px;
-    grid-template-columns: 100%;
-}
-
-.grid__container__contacto{
-    display: grid;
-    grid-template-areas:"header "
-    "landing__contacto "
-    "recomendaciones "
-    "footer ";
-    grid-template-rows: 70px 1fr 1fr 450px;
-    grid-template-columns: 100%;
-}
 
 .recomendaciones{
     background-color: #8FAFD9;
@@ -264,7 +237,6 @@ footer{
 }
 
 .landing__somos{
-    grid-area: landing;
     background-image: url(../images/quienes_somos_back.png) ;
     background-position: center center;
     background-repeat: no-repeat;

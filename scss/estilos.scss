@@ -1,0 +1,17 @@
+@import "utilidades/variables";
+
+@import "base/reset";
+
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/sectionCarrousel";
+@import"layout/sectionRecomendaciones";
+@import "layout/footer";
+
+@import "componentes/botonPresupuesto";
+@import "componentes/card";
+@import "componentes/form";
+
+@import "pages/servicios";
+@import "pages/contacto";
+@import "pages/somos";

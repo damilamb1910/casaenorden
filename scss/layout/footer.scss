@@ -1,0 +1,64 @@
+footer{
+    background-color: $colorOscuro;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 100%;
+    .footer__texto{
+        text-align: center;
+        color: $colorGris;
+        margin: 0;
+        padding: 0;
+        margin-left: 2px;
+        margin-right: 2px;
+        @media screen and (max-width:480px) {
+            font-size: 15px;
+        }
+        }
+    .footer__redes__img{
+        border-radius: 30px;
+        background-color: white;
+        margin: 5px;
+        padding: 2px;
+        height: 30px;
+        width: 30px;
+        @media screen and (max-width:480px) {
+            margin: 5px;
+            padding: 3px;
+            height: 20px;
+            width: 20px;
+        }
+        }
+    .footer__logoandredes{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: $colorMarron;
+        margin: 50px;
+        border-radius: 15px;
+        @media screen and (max-width:1024px) {
+            height: 200px;
+            margin-top: 0px;
+        }
+        @media screen and (max-width:480px) {
+            margin: 10px;
+            height: 130px;
+        }
+        }
+    .footer__logo {
+        width: 150px;
+        margin: 20px;
+        @media screen and (max-width:1024px) {
+            width: 100px;
+        }
+        @media screen and (max-width:480px) {
+            width: 60px;
+            margin: 10px;
+        }
+        }
+    .footer__redes{
+        display: flex;
+        justify-content: center;   
+        }
+}

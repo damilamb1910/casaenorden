@@ -1,11 +1,11 @@
 footer{
-    background-color: $colorOscuro;
+    background-color: map-get($map: $paleta, $key: 'oscuro');
     padding-top: 20px;
     padding-bottom: 40px;
     height: 100%;
     .footer__texto{
         text-align: center;
-        color: $colorGris;
+        color: map-get($map: $paleta, $key:'terciario' );
         margin: 0;
         padding: 0;
         margin-left: 2px;
@@ -34,7 +34,7 @@ footer{
         justify-content: center;
         align-items: center;
         align-content: center;
-        background-color: $colorMarron;
+        background-color: map-get($map: $paleta, $key:'secundario');
         margin: 50px;
         border-radius: 15px;
         @media screen and (max-width:1024px) {

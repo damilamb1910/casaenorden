@@ -1,40 +1,6 @@
-.landing__electricidad--background{
-    background-image: url(../images/electricidadback.png);
-}
 
-.landing__plomeria--background{
-    background-image: url(../images/plomeriaback.png);
-}
-
-.landing__pintura--background{
-    background-image: url(../images/pinturaback.png);
-}
-
-.landing__hidrolavados--background{
-    background-image: url(../images/hidrolavados.png);
-}
-
-.landing__gas--background{
-    background-image: url(../images/gasback.png);
-}
-
-.landing__porcelanato--background{
-    background-image: url(../images/porcelanatoback.png);
-}
-
-.landing__reparacion--background{
-    background-image: url(../images/reparacionback.png);
-}
 
 .landing{
-    font-family: 'Mukta', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    background-size: cover;
-    height: 95vh;
     @media screen and (max-width:1024px){
         height: 60vh;
         background-color: rgb(218, 214, 214);
@@ -52,7 +18,7 @@
         font-size: 50px;
         color: $colorAzul;
         line-height: 20px;
-        text-shadow: 2px 2px 2px $colorOscuro;
+        text-shadow: 2px 2px 2px map-get($map: $paleta, $key:'oscuro' );
         @media screen and (max-width:1024px) {
             width: 400px;
             margin-left: 50px;

@@ -1,0 +1,39 @@
+@mixin servicios ($background){
+    background-image: $background;
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 95vh;
+}
+
+.landing__electricidad--background{
+@include servicios(url(../images/electricidadback.png))
+}
+
+.landing__plomeria--background{
+    @include servicios(url(../images/plomeriaback.png))
+}
+
+.landing__pintura--background{
+    @include servicios(url(../images/pinturaback.png))
+}
+
+.landing__hidrolavados--background{
+    @include servicios(url(../images/hidrolavados.png))
+}
+
+.landing__gas--background{
+    @include servicios(url(../images/gasback.png))
+}
+
+.landing__porcelanato--background{
+    @include servicios(url(../images/porcelanatoback.png))
+}
+
+.landing__reparacion--background{
+    @include servicios(url(../images/reparacionback.png))
+}

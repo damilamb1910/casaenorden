@@ -2,7 +2,7 @@
     height: 80vh;
     padding-top: 50px;
     font-family: 'Mukta', sans-serif;
-    background-color: $colorOscuro;
+    background-color: map-get($map: $paleta, $key: 'oscuro');
 
     @media screen and (max-width:1024px){
         padding-top: 0px;
@@ -31,9 +31,9 @@
     }
         .carrousel__titulo{
             font-size: 50px;
-            color: $colorAzul;
+            color: map-get($map: $paleta, $key:'primario' );
             line-height: 35px;
-            text-shadow: 2px 2px 2px $colorOscuro;
+            text-shadow: 2px 2px 2px map-get($map: $paleta, $key:'oscuro' );
             @media screen and (max-width:1024px){
                 font-size: 35px;
                 text-align: center;

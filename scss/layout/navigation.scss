@@ -1,5 +1,5 @@
 .navbar{
-    background-color: $colorAzul !important;
+    background-color: map-get($map: $paleta, $key:'primario' ) !important;
     .nav-item{
         margin-right: 30px;
         }

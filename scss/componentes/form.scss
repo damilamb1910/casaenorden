@@ -2,7 +2,7 @@ form{
     border-radius: 12px;
     padding: 10px;
     width: 50%;
-    background-color: #BF8C80;
+    background-color: map-get($map: $paleta, $key:'secundario' );
     align-items: flex-start;
     @media screen and (max-width:480px) {
         margin: 0px;

@@ -1,8 +1,8 @@
-.carrousel__boton, .card__boton, .landing__boton, .contacto__presupuesto{
+.carrousel__boton{
     margin-top: 50px;
     height: 65px;
     width: 500px;
-    background-color: #F2B90C;
+    background-color: map-get($map: $paleta, $key:'accion' );
     border-radius: 15px;
     font-size: 20px;
     text-transform: uppercase;
@@ -19,4 +19,14 @@
     }
     }
 
-    
+    .card__boton{
+        @extend .carrousel__boton;
+    }
+
+    .landing__boton{
+        @extend .carrousel__boton;
+    }
+
+    .contacto__presupuesto{
+        @extend .carrousel__boton;
+    }

@@ -97,7 +97,7 @@ header {
     padding-top: 10px; }
     @media screen and (max-width: 480px) {
       .navbar .logo {
-        height: 25px; } }
+        height: 35px; } }
 
 .contenedor__carrousel {
   height: 80vh;
@@ -108,7 +108,6 @@ header {
     .contenedor__carrousel {
       padding-top: 0px;
       padding-bottom: 20px;
-      height: 800px;
       width: 100%; } }
   @media screen and (max-width: 480px) {
     .contenedor__carrousel {
@@ -172,6 +171,13 @@ header {
         margin-bottom: 0px;
         text-align: center; } }
 
+.section__video {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px; }
+
 footer {
   background-color: #08001f;
   padding-top: 20px;
@@ -198,8 +204,8 @@ footer {
       footer .footer__redes__img {
         margin: 5px;
         padding: 3px;
-        height: 20px;
-        width: 20px; } }
+        height: 40px;
+        width: 40px; } }
   footer .footer__logoandredes {
     display: flex;
     flex-direction: column;
@@ -250,6 +256,9 @@ footer {
       height: 40px;
       width: 150px;
       font-size: 15px; } }
+
+.card__boton {
+  margin-top: 40px; }
 
 .card {
   align-items: center;
